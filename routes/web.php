@@ -145,3 +145,11 @@ Route::resource('photos', PhotoController::class) ->only([
 Route::resource('photos', PhotoController::class) ->except([
     'create', 'store', 'update', 'destroy'
 ]);
+
+
+/*
+---------------------------------------------------------------------------
+        Praktikum 3
+---------------------------------------------------------------------------
+*/
+Route::get('/greeting', [WelcomeController::class,'greeting']);
