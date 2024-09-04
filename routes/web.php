@@ -100,6 +100,13 @@ Route::prefix('admin')->group(function () {
 });
 */
 
+
+// Redirect Routes
+/*
+Route::redirect('/here', '/there');
+*/
+
+
 // View Routes
 /*
 Route::view('/welcome', 'welcome');
